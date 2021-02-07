@@ -5,6 +5,10 @@ const StyledBox1 = dynamic(() => import("../components/styledBox1"));
 
 const StyledBox2 = dynamic(() => import("../components/styledBox2"));
 
+const SideBar = dynamic(() => import("../components/Sidebar"));
+
+const Content = dynamic(() => import("../components/Content"));
+
 export default function Home() {
   const [loadSecond, setLoadSecond] = useState(false);
 
@@ -21,6 +25,8 @@ export default function Home() {
     <div>
       <StyledBox1 />
       {loadSecond && <StyledBox2 />}
+      <SideBar />
+      <Content />
     </div>
   );
 }
