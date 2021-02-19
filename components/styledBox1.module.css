@@ -1,0 +1,15 @@
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.heading-1 {
+  color: black;
+  font-size: 20px;
+}
+
+.content-2 {
+  color: purple;
+  font-size: 14px;
+}
